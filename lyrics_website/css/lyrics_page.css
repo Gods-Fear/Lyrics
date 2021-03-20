@@ -1,0 +1,382 @@
+body {
+  margin: 0;
+  font-family: Arial Rounded MT;
+  font-size: 16px;
+  min-width: 1350px;
+  /* line-height: 1.6; */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.header_wrapper {
+  width: 100%;
+  /* height: 30%; */
+  min-height: 300px;
+  background-color: #f37f57;
+
+  /* border: 4px black solid; */
+}
+
+.header_bar {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  background-color: #f37f57;
+  z-index: 1000;
+  /* margin-bottom: 80px; */
+  /* border: 4px black solid; */
+}
+
+.header_song_info {
+  padding-top: 80px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+
+  /* border: 4px black solid; */
+}
+
+.logo_link {
+  text-decoration: none;
+  margin: auto;
+  font-size: 42px;
+  color: white;
+  position: relative;
+  top: 13px;
+}
+
+.profile_link_wrapper {
+  position: absolute;
+  top: 18px;
+  right: 20px;
+}
+
+.my_lyrics {
+  float: left;
+  position: relative;
+  top: 13px;
+}
+
+#my_lyrics_btn {
+  text-decoration: none;
+  color: white;
+}
+
+.profile_img {
+  float: left;
+  margin: 0 20px;
+}
+
+.profile_name {
+  float: left;
+  position: relative;
+  top: 13px;
+  text-align: right;
+  color: white;
+  margin-left: 20px;
+}
+
+#profile_photo {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  /* display: none; */
+}
+
+.log_out {
+  margin-left: 20px;
+  float: left;
+  position: relative;
+  top: 13px;
+  text-align: right;
+}
+
+.log_out a {
+  text-decoration: none;
+  color: white;
+}
+
+.search_bar {
+  float: left;
+  position: relative;
+  top: 7px;
+  margin: 0px 16px 0px;
+}
+
+#site-search {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 250px;
+  height: 30px;
+  padding: 10px;
+
+  border-radius: 25px;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+
+  font-size: 16px;
+  color: white;
+}
+
+.img_wrapper {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  /* display: none; */
+}
+
+.img {
+  position: absolute;
+  top: 25px;
+  left: -20px;
+
+  width: 100%;
+  height: auto;
+}
+
+.info_wrapper {
+  position: relative;
+  top: 50px;
+  left: 300px;
+  max-width: 800px;
+  /* width: 80%; */
+  height: 100%;
+
+  float: left;
+  /* border: 4px black solid; */
+}
+
+.title {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.artist {
+  color: white;
+  font-size: 18px;
+  font-family: Arial;
+  margin-bottom: 7px;
+}
+
+.album {
+  color: white;
+  font-size: 18px;
+  font-family: Arial;
+}
+
+.fav_img {
+  margin: 10px 0px;
+  width: 40px;
+}
+
+.half_size {
+  width: 50%;
+  /* margin: 0%; */
+  font-family: Arial;
+  color: white;
+  font-size: 18px;
+  float: left;
+  /* border: 4px black solid; */
+}
+
+.counters {
+  width: 100%;
+  float: none;
+  /* border: 4px black solid; */
+}
+
+.l_v {
+  float: left;
+  position: relative;
+  top: 90px;
+  left: 0px;
+  margin-right: 16px;
+  /* border: 4px black solid; */
+}
+
+.narrow_container {
+  max-width: 690px;
+  margin: 0 auto;
+}
+
+.text {
+  margin: 40px 0 40px 0;
+  /* position: relative;
+    left: -30px; */
+}
+
+.text pre {
+  font-family: Arial;
+  color: black;
+  font-size: 20px;
+}
+
+.comments {
+  margin-bottom: 80px;
+}
+
+.comments_header {
+  text-align: center;
+  font-family: Arial Rounded MT;
+  font-size: 42px;
+}
+
+.comment_input {
+  margin: 30px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+#comment_input {
+  background-color: white;
+  width: 350px;
+  height: 45px;
+  padding: 10px;
+
+  border: 2px #f37f57 solid;
+  border-radius: 15px;
+  box-sizing: border-box;
+  outline: none;
+
+  font-size: 20px;
+  color: black;
+}
+
+.comment_wrapper {
+  width: 600px;
+  padding: 20px;
+
+  border: 1px #C8C8C8 solid;
+  border-radius: 10px;
+
+  margin: 20px auto;
+}
+
+.user {
+}
+
+.avatar {
+  float: left;
+}
+
+.name {
+  font-family: Arial;
+  font-size: 14px;
+  float: left;
+  position: relative;
+  top: 15px;
+  margin-left: 15px;
+}
+
+.date {
+  font-family: Arial;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.45);
+  float: right;
+
+  position: relative;
+  top: 15px;
+}
+
+.comment_text {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-family: Arial;
+  font-size: 14px;
+  padding: 0 65px;
+}
+
+.detele {
+  float: right;
+}
+
+.modify {
+  float: right;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.bottom_bar {
+  margin-bottom: 50px;
+}
+
+.hide {
+	display: none;
+}
+
+.btn {
+  margin-top: 25px;
+  box-sizing: border-box;
+  padding: 14px 60px;
+  border-radius:16px;
+  border-style: none;
+  color: #fff;
+  background-color: #f37f57;
+
+  display: block;
+  font-size: 16px;
+  font-family: Arial Rounded MT;
+}
+
+.profile_photo_modal {
+  display: none;
+  position: fixed;
+  z-index: 1; 
+  width: 100%; 
+  height: 100%; 
+  background-color: rgba(0,0,0,0.5);
+  
+  animation-name: fadeIn;
+  animation-duration: 0.2s
+}
+
+.album_modal {
+  display: none;
+  position: fixed;
+  z-index: 1; 
+  width: 100%; 
+  height: 100%; 
+  background-color: rgba(0,0,0,0.5);
+  
+  animation-name: fadeIn;
+  animation-duration: 0.2s
+}
+
+.modal_header {
+  font-size: 26px;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.modal_content {
+  background-color: #fefefe;
+  margin: 20% auto;
+  padding: 10px;
+  border: 1px solid #888;
+  width: fit-content;
+  height: fit-content;
+  overflow: auto;
+  border-radius: 25px;
+}
+
+.modal_form {
+  display: flex;
+  justify-content: left;
+  margin: 15px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+

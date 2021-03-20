@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial Rounded MT;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.logo_link {
+    text-decoration: none;
+    margin: auto;
+    font-size: 60px;
+    background:linear-gradient(315deg,#ef629f, #eecda3);
+    display: flex;
+    justify-content: center;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hint_text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+
+    margin: 10vh 0;
+}
+
+.input_hint {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.error {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: red;
+}
+
+.input_bar {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0px 0px 15px 0px;
+    padding: 12px 14px;
+    border-radius:16px;
+    border-width: 1px;
+    font-size: 16px;
+    outline: none;
+    /* -webkit-transition: 0.5s;
+    transition: 0.5s; */
+}
+
+.input_bar:focus {
+    border: 3px solid #5D69D3;
+  }
+
+.forgot_outer {
+    text-align: center;
+}
+
+.forgot {
+    color: black;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: normal;
+}
+
+.button_outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    margin-top: 25px;
+    box-sizing: border-box;
+    padding: 14px 60px;
+    border-radius:16px;
+    border-style: none;
+    color: #fff;
+    background-color: #B06AB3;
+
+    font-size: 16px;
+    font-family: Arial Rounded MT;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.radio_hint {
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+  
+.radio {
+    display: flex;
+    justify-content: center;
+}
